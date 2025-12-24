@@ -1,9 +1,27 @@
-const CACHE_NAME = 'fmk-portal-v2';
+const CACHE_NAME = 'fmk-portal-v3';
 const urlsToCache = [
     '.',
     'index.html',
     'manifest.json',
-    'logo.svg'
+    'logo.svg',
+    'buxgalteriya_trenajyor/index.html',
+    'buxgalteriya_simulyator/index.html',
+    'kassa_tizimi/index.html',
+    'bank_tizimi/index.html',
+    'ombor_tizimi/index.html',
+    'ombor_tizimi_aveco/index.html',
+    'kadrlar/index.html',
+    'tabel/index.html',
+    'xizmat_safari/index.html',
+    'asosiy_vositalar/index.html',
+    'nomoddiy_aktivlar/index.html',
+    'debitorlar/index.html',
+    'kreditorlar/index.html',
+    'ishlab_chiqarish/index.html',
+    'soliq/index.html',
+    'buxgalteriya/index.html',
+    'korxona_profili/index.html',
+    'AMALIY_VAZIFALAR.html'
 ];
 
 self.addEventListener('install', (event) => {
